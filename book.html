@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Meeting Room Booking</h1>
+    
+    <div class="room-list">
+        <h2>Available Rooms</h2>
+        <ul id="available-rooms">
+            <!-- Room list will be populated dynamically -->
+        </ul>
+    </div>
+
+    <div class="booking">
+        <h2>Book a Room</h2>
+        <label for="room">Select a room:</label>
+        <select id="room">
+            <!-- Room options will be populated dynamically -->
+        </select>
+
+        <label for="time-slot">Select a time slot:</label>
+        <select id="time-slot">
+            <!-- Time slot options will be populated dynamically -->
+        </select>
+
+        <button id="book-button">Book Room</button>
+    </div>
+
+    <div class="bookings">
+        <h2>Your Bookings</h2>
+        <ul id="user-bookings">
+            <!-- User's bookings will be displayed here -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
